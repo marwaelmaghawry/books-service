@@ -35,6 +35,17 @@ dependencies {
 
     annotationProcessor("io.micronaut:micronaut-inject-java")
 
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    implementation("io.micronaut.data:micronaut-data-hibernate-jpa")
+    runtimeOnly("com.h2database:h2")
+    implementation("jakarta.persistence:jakarta.persistence-api")
+    implementation("io.micronaut.sql:micronaut-jdbc-hikari")
+
+
+
+
 
 }
 

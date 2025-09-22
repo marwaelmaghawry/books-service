@@ -1,4 +1,4 @@
-package com.example;
+package com.example.event;
 
 import com.example.Model.Book;
 import io.micronaut.configuration.kafka.annotation.KafkaClient;
